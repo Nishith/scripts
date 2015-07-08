@@ -1,0 +1,6 @@
+---
+- hosts: home
+  remote_user: root
+  tasks:
+  - name: Shutdown everything
+    command: /sbin/shutdown -t now
